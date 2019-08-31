@@ -1,0 +1,50 @@
+html,body {
+  /* width: 100%; */
+  /* height: 100%; */
+}
+* {
+  box-sizing: border-box;
+}
+#mario-chat {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+
+#chat-window {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  border: 1px solid #aaa;
+}
+
+#output{
+  /* width: 500px; */
+  /* height: 200px; */
+  width: 100%;
+  height: 60%;
+  overflow-y:scroll;
+}
+input {
+  width: 100%;
+  margin: 4px 0;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+  border: 2px solid #eee;
+  padding-left: 8px;
+}
+
+button {
+  width: 100%;
+  border:none;
+  box-shadow: 1px 1px 5px 0px #575ed8;
+  background: #575ed8;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  /* padding: 12px 0; */
+  height: 40px;
+  border-radius: 0 0 2px 2px;
+}
+
